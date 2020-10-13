@@ -1,0 +1,235 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Cormorant Garamond', serif;  
+}
+header::before {
+    content: " ";
+    filter: blur(30px);
+}
+header {
+    z-index: 4;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    width: 100%;
+    height: 13%;
+   box-shadow: 0px 1px 20px #b3b1b1;
+}
+header ul {
+    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    position: relative;
+    bottom: 2rem;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header ul li {
+    margin: 2%;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+header a {
+    color: black;
+    text-decoration: none;
+}
+header a:hover {
+    color: #9F6976;
+    transition: 0.3s;
+    text-decoration: none;
+}
+ nav ul li ul li{
+    display: none;
+    position: absolute;
+} 
+header #logo {
+    position: relative;
+    top: 1.4rem;
+    font-size: 2em;
+    margin: 3%;
+}
+.background {
+    background: url('elegant1.jpg');
+    /* background-color: rgba(0, 0, 0, 0.315); */
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+   
+}
+#dark {
+    background-color: rgba(0, 0, 0, 0.452);
+    width: 100%;
+    height: 90vh;
+}
+.bg-title {
+    font-size: 3rem;
+    color: #b3b1b1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+.title {
+    margin: 5%;
+    text-align: center;
+    width: 80wh;
+}
+h2 {
+    padding: 1em;
+}
+i {
+    font-size: 1.5em;
+}
+.wedding-title {
+    text-align: center;
+    color: antiquewhite;
+    height: 30vh;
+    width: 100%;
+    background-color: #9F6976;
+}
+.wedding-title h1  {
+    font-size: 4em;
+    letter-spacing: 2px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.wedding-services {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.wedding-serv1 {
+    opacity: 1;
+    /* transform: translateY(20px);
+    transition: 0.5s all ease-in; */
+
+
+    left: 0%;
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* .wedding-serv1-appear {
+    opacity: 1;
+    transform: translateY(0px);
+} */
+
+
+
+
+.wedding-serv1 .num1 {
+    width: 10%;
+    height: 10%;
+}
+.wedding-serv1 #wedd-serv1, #wedd-serv2, #wedd-serv3{
+    box-shadow: 4px 4px 10px #b3b1b1;
+    width: 30%;
+    height: 40%;
+}
+.wed-decsript-1 {
+    padding: 2%;
+}
+.celebrity {
+    background-color: #F6F7F5;
+    height: 250vh;
+    text-align: center;
+}
+.celebrity-title {
+    text-align: center;
+    color: antiquewhite;
+    height: 35vh;
+    width: 100%;
+    background-color: #50514f;
+}
+.celebrity-title h1 {
+    font-size: 4em;
+    letter-spacing: 2px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.celeb-flex1, .celeb-flex2 {
+    position: relative;
+    top: -3em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.celebrity-serv1 {
+    height: 100vh;
+    width: 40%;
+    background-color: #fff;
+    /* border: 1px solid #50514f; */
+    /* text-transform: lowercase; */
+    /* overflow: auto; */
+}
+#celeb-serv1 {
+    box-shadow: 4px 4px 10px #b3b1b1;
+    width: 90%;
+    height: 50%;
+    margin: 0 auto;
+}
+#celeb-serv2 {
+    width: 100%;
+    height: 50%;
+    box-shadow: 4px 4px 10px #b3b1b1;
+
+}
+.celeb-descript-1 {
+    margin: 5%;
+    text-transform: lowercase;
+}
+.celeb-flex2 {
+    top: 0em;
+}
+.meetups {
+   background-color: #F6F7F5;
+
+}
+.meetup-title {
+    text-align: center;
+    color: antiquewhite;
+    height: 35vh;
+    width: 100%;
+    background-color: #618E94;
+    /* position: relative; */
+    /* top: 50%; */
+}
+.meetup-title h1 {
+        font-size: 4em;
+        letter-spacing: 2px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+.slider {
+    width: 80%;
+    height: 80%;
+   margin: 5% 10%;
+   display: flex;
+}
+.box img{
+    width: 90%;
+    height: auto;
+    margin: 5%;
+    border: 3em solid #fff;
+}
+/* .slider button {
+    padding: 20px;
+    border: none;
+    background: grey;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+} */

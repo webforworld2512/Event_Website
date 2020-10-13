@@ -1,0 +1,130 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Cormorant Garamond', serif;  
+}
+header::before {
+    content: " ";
+    filter: blur(30px);
+}
+header {
+    z-index: 4;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    width: 100%;
+    height: 13%;
+   box-shadow: 0px 1px 20px #b3b1b1;
+}
+header ul {
+    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    position: relative;
+    bottom: 2rem;
+    font-weight: bold;
+}
+header ul li {
+    margin: 2%;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+header a {
+    color: #b3b1b1;
+    text-decoration: none;
+}
+header a:hover {
+    color: #f7963b;
+    transition: 0.3s;
+    text-decoration: none;
+}
+ nav ul li ul li{
+    display: none;
+    position: absolute;
+} 
+nav.white{
+    color: #fff;
+}
+header #logo {
+    position: relative;
+    top: 1.4rem;
+    font-size: 2em;
+    margin: 3%;
+    color: #b3b1b1;
+}
+.background {
+    background: url('contact-bg.jpeg');
+    background-attachment: fixed;
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+   
+}
+.bg-title {
+    font-size: 3rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+.title {
+    margin: 5%;
+    text-align: center;
+    width: 80wh;
+}
+h2 {
+    padding: 1em;
+}
+i {
+    font-size: 1.5em;
+}
+.contact-bg {
+    background: url('contact2.jpg');
+    /* background-attachment: fixed; */
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+   
+}
+.contact {
+    background-color: rgba(0, 0, 0, 0.562);
+    width: 50%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+
+}
+form {
+    font-weight: bold;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    width: 80%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+input, textarea {
+    width: 65%;
+    margin-top: 2%;
+    border-width: 0;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+}
+button {
+    width: 50%;
+    margin-top: 3%;
+    height: 5%;
+    background: #fff;
+    border-width: 0;
+    border-radius: 6%;
+}

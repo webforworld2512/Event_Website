@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="evenzOne4.css">
+    <script>
+        $(window).on("scroll", function() {
+          if($(window).scrollTop()) {
+            $('nav').addClass("white");
+          }
+          else {
+            $('nav').removeClass("white");
+          }
+        })
+      </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" id="logo">EvenzOne</a>
+            <ul>
+                <li class="nav-link"><a href="index.html">Home</a></li>
+                <li class="nav-link"><a href="evenzOne2.html">Services</a></li>
+                <li class="nav-link"><a href="evenzOne3.html">Gallery</a></li>
+                <li class="nav-link"><a href="evenzOne4.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="background">
+        <section class="bg-title">
+             <h1>Contact Us</h1>
+    </div>
+    </div>
+
+
+   <div class="title">
+       <h2>WE NEED TO TALK</h2>
+        <p> <i> Really, we do. We need to talk about how we can make your wedding or event jaw-droppingly beautiful and unapologetically you. Tell me all about your vision and let’s create something you thought was only possible in your dreams. Are you ready? Let’s do this!  
+        </i></p>
+        <p><i>
+            Thank you for you’re interest in working with EvenzOne. We will be in touch shortly with our next steps for your proposal. We’re looking forward to hearing more about your event! If you are an Event Planner please contact us directly here.
+        </i></p>
+   </div>
+
+
+   <section class="contact-bg">
+       <main class="contact">
+        <form action="">
+            <label> Name: <br/><input type="text" name="name" id="name"> </label> <br/>
+    
+            <label> Email: <br/><input type="email" name="email" id="email"> </label> <br/>
+
+            <label> Phone: <br/><input type="number" name="num" id="phone"> </label> <br/>
+
+            <label> Date of Event:<br/> <input type="date" name="date" id="eventDate"> </label> <br/>
+
+            <label> Event Venue: <br/><input type="text" name="venue" id="venue"> </label> <br/>
+
+            <label> Tell us something about your event: <br/><textarea id="about-you"></textarea></label>
+
+            <label> How did you hear about us? <br/><textarea id="about-us"></textarea></label>
+
+            <button type="submit" id="send">SEND</button>
+           </form>
+       </main>
+   </section>
+
+</body>
+</html>
